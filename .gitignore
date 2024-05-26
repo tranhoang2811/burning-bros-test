@@ -1,0 +1,25 @@
+# Virtual environments
+venv/
+
+# Build/test artifacts
+__pycache__/
+
+# IDE/editor specific files
+*.pyc
+*.egg-info/
+.idea/*
+
+# Pyre type checker artifacts
+.pyre/
+
+# Cython debug symbols
+cython_debug/
+
+# Specific IDE configurations (optional)
+# Uncomment the relevant line if using the corresponding IDE:
+
+# PyCharm
+ *.idea/
+
+# Visual Studio Code
+ .vscode/
