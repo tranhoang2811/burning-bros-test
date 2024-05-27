@@ -6,7 +6,7 @@ This repository contains the source code for the Burning Bros technical test. Th
 
 ### Prerequisites
 
-Before running the source code, ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/).
+Before running the source code, ensure you have Python 3.9 or above installed on your system. You can download it from [python.org](https://www.python.org/).
 
 ### Installation
 
@@ -31,13 +31,26 @@ The crawling logic is implemented in the `crawling.py` file. To run the crawling
 
 ### Data Storage
 
-The crawled data will be stored in the `data` folder. Ensure that this directory exists or the script will create it for you.
+The crawled data will be stored in the `data` folder. Ensure that this directory exists.
+
+#### Data Description
+
+| Dataset    | Description                                        |
+|------------|----------------------------------------------------|
+| DAY_1      | The gold price fluctuations in the past 1 day      |
+| WEEK_1     | The gold price fluctuations in the past 1 week     |
+| MONTH_1    | The gold price fluctuations in the past 1 month    |
+| YTD        | The gold price fluctuations from the beginning of this year |
+| YEAR_1     | The gold price fluctuations in the past 1 year     |
+| YEAR_3     | The gold price fluctuations in the past 3 years    |
+| MAX        | The gold price fluctuations through history until now |
+| CUSTOM     | The gold price fluctuations in the custom time range |
 
 ### Data Analysis
 
 The analysis for the crawled dataset can be found in the following link:
 
-[Data Analysis Link](#)  <!-- Attach the link here -->
+[Data Analysis Link](https://drive.google.com/drive/folders/1GhvnQ2qDRvz4QwS0Z-hQwRXqFMIcun0d?usp=drive_link)
 
 ## Repository Structure
 
@@ -52,4 +65,3 @@ The analysis for the crawled dataset can be found in the following link:
 2. Run the `main.py` script to start the crawling process.
 3. Check the `data` folder for the stored data.
 4. Follow the link provided above for the analysis of the dataset.
-
